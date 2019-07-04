@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@drawable/sh6"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <TextView
+            android:id="@+id/travelling"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Travelled : 2019-01-07"
+            android:gravity="center_vertical"
+            android:layout_width="250dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/carImaging"
+            android:layout_width="240dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/car1" />
+        <TextView
+            android:id="@+id/pricing"
+            android:layout_marginLeft="300dp"
+            android:textSize="20sp"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/roboto_bold"
+            android:text="₹700"
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="330dp"
+            android:src="@drawable/seat"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/newseating"
+            android:textColor="@color/dark_blue"
+            android:textSize="25sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="6"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="300dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginTop="130dp"
+            android:id="@+id/seating"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Seats Booked : 2"
+            android:gravity="center_vertical"
+            android:layout_width="250dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_marginTop="160dp"
+            android:id="@+id/booking"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Booked : 2019-01-07"
+            android:gravity="center_vertical"
+            android:layout_width="250dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/imagerCheck"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="120dp"
+
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+    </RelativeLayout>
+</LinearLayout>

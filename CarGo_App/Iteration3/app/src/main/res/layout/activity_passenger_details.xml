@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassengerDetails" >
+
+    <RelativeLayout
+        android:background="@drawable/sh6"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <Button
+            android:alpha="0"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="290dp"
+            android:id="@+id/buttonSub1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Name : "
+            android:textColor="@color/dark_blue"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textborder"
+
+            android:padding="10dp"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/textborder"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="205dp"
+            android:background="@drawable/textborder"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:text="Phone : "
+            android:textColor="@color/dark_blue"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:text="Sex : "
+            android:textColor="@color/dark_blue"
+            android:textSize="23sp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="210dp"
+            android:text="Email : "
+            android:textColor="@color/dark_blue"
+            android:textSize="23sp" />
+            <RadioGroup
+                android:id="@+id/sex"
+                android:orientation="horizontal"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="150dp"
+                android:layout_width="230dp"
+                android:layout_height="50dp">
+                <RadioButton
+                    android:id="@+id/male"
+                    android:textColor="@color/dark_blue"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="20sp"
+                    android:text="Male"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp" />
+                <RadioButton
+                    android:id="@+id/female"
+                    android:textColor="@color/dark_blue"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="20sp"
+                    android:text="Female"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp" />
+            </RadioGroup>
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/roundedblue">
+
+            <TextView
+                android:id="@+id/buttonSub"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Submit "
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gif_file"/>
+</LinearLayout>

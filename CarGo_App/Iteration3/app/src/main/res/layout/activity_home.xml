@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sh6">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@color/dark_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/roboto_mono_bold"
+            android:text="BOOK A RIDE!"
+            android:textSize="45sp" />
+
+        <ImageView
+            android:layout_height="274dp"
+            android:layout_width="340dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/home" />
+
+        <Spinner
+            android:background="@drawable/textborder"
+            android:id="@+id/sourcespin"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="340dp" />
+        <ImageView
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="345dp"
+            android:src="@drawable/dropdowndark"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Spinner
+            android:background="@drawable/textborder"
+            android:id="@+id/destinationspin"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="390dp" />
+        <ImageView
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="395dp"
+            android:src="@drawable/dropdowndark"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/dark_blue"
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="465dp"
+            android:text="Select Date"
+            android:textSize="22sp" />
+        <Button
+            android:alpha="0"
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="80dp"
+            android:id="@+id/calendar"
+            android:layout_width="220dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginStart="100dp"
+            app:srcCompat="@drawable/calendar" />
+
+        <Button
+            android:textSize="18sp"
+            android:id="@+id/booknow"
+            android:textColor="@color/cardview_light_background"
+            android:background="@drawable/roundedblue"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="520dp"
+            android:text="Book Now" />
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sh6">
+
+        <TextView
+            android:text=""
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/seatsAV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/roundedblack"
+            android:layout_width="130dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/yellow"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:id="@+id/carImg"
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/car1" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="285dp"
+            android:background="@drawable/roundedyellow"
+            android:layout_width="80dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/seatsTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/seat"
+                android:layout_width="20dp"
+                android:layout_height="30dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="185dp"
+            android:background="@drawable/roundedblue"
+            android:layout_width="180dp"
+            android:layout_height="50dp">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/BookButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Book Now!"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+</LinearLayout>

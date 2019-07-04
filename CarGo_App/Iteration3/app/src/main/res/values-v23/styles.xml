@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">#FFF</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <style name="DotsDarkTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
+        <item name="android:tint">@color/title_color</item>
+    </style>
+</resources>

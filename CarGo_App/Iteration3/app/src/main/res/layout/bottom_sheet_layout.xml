@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="@font/roboto_mono_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="How many Seats do you Want ?"
+        android:textColor="@color/title_color"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_width="300dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundedblue"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="80dp"
+    android:background="@drawable/roundedblue"
+    android:layout_width="50dp"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/roboto_bold"
+        android:text="2"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/roundedblue"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="3"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/roundedblue"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="4"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l5"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="260dp"
+        android:background="@drawable/roundedblue"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="5"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l6"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/roundedblue"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="6"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

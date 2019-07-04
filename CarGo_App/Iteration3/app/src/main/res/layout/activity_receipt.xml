@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/sh4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/dark_blue"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:text="RECEIPT"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="85dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="125dp"
+            android:text="Name : "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/phone1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="170dp"
+            android:text="Phone : "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/source1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="220dp"
+            android:text="Source : "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/destination1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="270dp"
+            android:text="Destination : "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/seats1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="320dp"
+            android:text="Seats : "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"
+            android:background="@color/dark_blue"
+            android:layout_width="300dp"
+            android:layout_height="3dp"/>
+        <LinearLayout
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="35dp"
+            android:background="@color/dark_blue"
+            android:layout_width="300dp"
+            android:layout_height="3dp"/>
+        <LinearLayout
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="35dp"
+            android:background="@color/dark_blue"
+            android:layout_width="300dp"
+            android:layout_height="3dp"/>
+        <LinearLayout
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="35dp"
+            android:background="@color/dark_blue"
+            android:layout_width="300dp"
+            android:layout_height="3dp"/>
+        <TextView
+            android:id="@+id/total1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="390dp"
+            android:text="Total ..........₹ "
+            android:textColor="@color/dark_blue"
+            android:textSize="35sp" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="550dp"
+            android:text="THANK YOU! "
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/roundedblue"
+            android:layout_width="150dp"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/proceed"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="@color/cardview_light_background"
+                android:gravity="center"
+                android:text="PAY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

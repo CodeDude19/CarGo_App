@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yasser.iteration3">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CarGo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="Your Rides"
+            android:name=".TrackRidesActivity"></activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".home"
+            android:label="Home" />
+        <activity
+            android:name=".Register"
+            android:label="Registration" />
+        <activity android:name=".First">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Finish_Activity"
+            android:label="Transaction Complete" />
+        <activity
+            android:name=".Receipt"
+            android:label="Itinerary" />
+        <activity
+            android:name=".PassengerDetails"
+            android:label="Passenger Info" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Choose your Vehicle" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

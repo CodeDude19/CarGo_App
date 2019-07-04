@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_color"
+    tools:context=".First">
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="35dp"
+        android:text="C"
+        android:textColor="#fff"
+        android:textSize="110sp" />
+    <TextView
+        android:id="@+id/ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ar"
+        android:textSize="70sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="115dp"/>
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="G"
+        android:textColor="#fff"
+        android:textSize="110sp" />
+
+    <ImageView
+        android:id="@+id/wheel"
+        android:layout_width="104dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/tyre2" />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="258dp"
+        android:layout_height="344dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/car" />
+
+
+</RelativeLayout>
