@@ -1,7 +1,7 @@
 # CarBooking_App
-Sikkim, being a tourism state requires a technology like this
-The existing services are web-based (wizzride, metta.taxi, etc.)
-So Simplified the user-experience for booking a cab by creating CarGo App
+Sikkim, being a tourism state requires a technology like this.<br>
+The existing services are web-based (wizzride, metta.taxi, etc.)<br>
+So Simplified the user-experience for booking a cab by creating CarGo App.<br>
 # The Design System 
 <a href="https://imgur.com/XMs1ptF"><img src="https://i.imgur.com/XMs1ptF.png" title="source: imgur.com" /></a>
 # The App
